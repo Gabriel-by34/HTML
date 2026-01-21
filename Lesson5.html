@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Lesson Five-Forms</title>
+        <body>
+           <Center><h1>HTML FORMS</h1></Center> 
+           <!-- Html forms are used to collect user data and store the same data inside of a Database. Forms in html are introduced by the use of the form tag element. To have a partition inside of the form we use the fieldset tag element. To label/give a heading to the partition we use the legend tag element. A form uses different input types to collect the user data i.e ntext, email, password, date, file etc... -->
+            <form>
+                <!-- The fisrt Partition -->
+                <fieldset>
+                    <legend>Personal Details</legend>
+                    
+                    <input type="text" placeholder="Enter the Fullname"><br>  <br>
+                    <input type="number" placeholder="Enter Id number"><br>  <br>
+                    <input type="number" placeholder="Passport number"><br>  <br>
+                    <input type="email" placeholder="Enter Email Address"> <br> <br>
+                    <input type="password" placeholder="Enter your Password"> <br> <br>
+                    <label> Your D.O.B </label> <br>
+                    <input type="date" name="" id="">
+                </fieldset>
+
+
+                <!-- The end of first Partition -->
+                 <!-- The Second partiotion Starts here -->
+
+                 <fieldset>
+                    <legend>Selections</legend>
+                    <label>Your Interests/Hobbies</label> <br>
+                    <input type="checkbox"> Swimming <br>
+                    <input type="checkbox"> Riding <br>
+                    <input type="checkbox"> Reading <br>
+                    <input type="checkbox"> Dancing <br>
+                    <input type="checkbox"> Mountain Climbing <br>
+                    <input type="checkbox"> Hiking <br> <br>
+
+                    <label> Your Gender</label> <br>
+                    <input type="radio" name="Gender">Male <br>
+                    <input type="radio" name="Gender">Female <br> <br>
+
+                    <label> Choose Your Profile Picture</label> <br>
+                    <input type="file"> <br> <br>
+
+                    <Label>Select A course</Label> <br>
+                    <select>
+                        <option value="0">Choose a course</option><br>
+                        <option value="1">Computer Science</option> <br>
+                        <option value="2">BBIT</option> <br>
+                        <option value="3"> Procurement </option> <br>
+                        <option value="4"> Computer Software Development</option> <br>
+                        <option value="5"> Bcom</option><br>
+                        <option value="6">Community Development</option> <br>
+                    </select>
+                 </fieldset>
+                 <!-- The second partition ends here -->
+                 <!-- The start of third partition -->
+                  <fieldset>
+                    <legend>Feedback</legend>
+                    <label > Leave a comment</label> <br>
+                    <textarea cols="80" rows="10" placeholder="Leave your feedback here"></textarea>
+
+                  </fieldset>
+                 <!-- The end of third partition -->
+
+                <input type="submit" value="Make Application"> <br> <br>
+
+                <input type="reset">
+        
+
+            </form>
+        </body>
+    </head>
+</html>
